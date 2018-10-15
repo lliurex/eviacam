@@ -31,4 +31,5 @@ override_dh_clean:
 	-rm po/stamp-po
 
 override_dh_auto_configure:
-	dh_auto_configure -- --disable-updates-check --with-wx-config=/usr/lib/x86_64-linux-gnu/wx/config/gtk3-unicode-3.0
+	dh_auto_configure -- --disable-updates-check 
+	dh_auto_configure -- --with-wx-config=/usr/lib/x86_64-linux-gnu/wx/config/gtk3-unicode-3.0
