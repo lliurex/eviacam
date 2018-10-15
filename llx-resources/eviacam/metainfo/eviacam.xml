@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+<id>eviacam</id>
+<metadata_license>CC0-1.0</metadata_license>
+<name>Enable Viacam</name>
+<summary>Webcam based mouse that moves the pointer as you move your head</summary>
+<summary xml:lang="es">Alternativa para mover el ratón con la cabeza</summary>
+<summary xml:lang="ca">Alternativa per moure el ratolí amb el cap</summary>
+<summary xml:lang="ca_ES@valencia">Alternativa per moure el ratolí amb el cap</summary>
+<summary xml:lang="ca_ES.UTF-8@valencia">Alternativa per moure el ratolí amb el cap</summary>
+<summary xml:lang="gl">Permite mover o punteiro a partir do movemento da cabeza</summary>
+<summary xml:lang="tr">Fare veya klavye kullanmadan bilgisayarınızı kontrol edin</summary>
+<summary xml:lang="ast">Xuegue ensin falta d'un mur o un teclau</summary>
+<description>
+<p>Enable Viacam (aka eViacam) is a mouse replacement software that moves the pointer as you move your head. It works on standard PCs equipped with a web camera. No additional hardware is required. Based on the award winning Facial Mouse software. eViacam works on standard PCs equipped with a web camera. No additional hardware is required. Based on the award winning Facial Mouse software. For Linux and Windows systems.</p>
+<p xml:lang="es_ES">Enable-Viacam (eViacam) es un software para reemplazar el ratón manejando el puntero con movimientos de la cabeza. Funciona en PCs estándar equipados con una cámara web. No se requiere hardware adicional.</p>
+<p xml:lang="ca">Enable-Viacam (eViacam) és un programa per a reemplaçar el ratolí manejant el punter amb moviments del cap. Funciona en PC estàndard equipats amb una càmera web. No es requereix maquinari addicional.</p>
+<p xml:lang="ca_ES@valencia">Enable-Viacam (eViacam) és un programa per a reemplaçar el ratolí manejant el punter amb moviments del cap. Funciona en PC estàndard equipats amb una càmera web. No es requereix maquinari addicional.</p>
+<p xml:lang="ca_ES.UTF-8@valencia">L'Enable-Viacam (eViacam) és un programa per a reemplaçar el ratolí i manejar el punter amb moviments del cap. Funciona en PC estàndard equipat amb una càmera web. No es requereix maquinari addicional.</p>
+<p xml:lang="gl">Permite mover o punteiro a partir do movemento da cabeza.</p>
+<p xml:lang="tr">Fare veya klavye kullanmadan bilgisayarınızı kontrol edin.</p>
+<p xml:lang="ast">Xuegue ensin falta d'un mur o un teclau</p>
+</description>
+<categories>
+<category>GTK</category>
+<category>Utility</category>
+<category>Accessibility</category>
+</categories>
+<icon type="stock">eviacam</icon>
+<provides><binary>eviacamloader</binary></provides>
+<keywords>
+<keyword>Enable</keyword>
+<keyword>Viacam</keyword>
+<keyword>ratón</keyword>
+<keyword>webcam</keyword>
+</keywords>
+<developer_name>Cesar Mauri Loba (CREA Software)</developer_name>
+<name xml:lang="ca_ES.UTF-8@valencia">Enable Viacam</name>
+<summary xml:lang="ca_ES.UTF-8@valencia">Un ratolí basat en una càmera web: el punter del ratolí es mou a mesura que l'usuari mou el cap.</summary>
+</component>
