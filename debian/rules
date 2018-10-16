@@ -30,10 +30,13 @@ override_dh_clean:
 	find po -name "*.gmo" -delete
 	-rm po/stamp-po
 
-override_dh_auto_configure:
-	ifeq ($(DEB_BUILD_ARCH),amd64)
-		dh_auto_configure -- --disable-updates-check --with-wx-config=/usr/lib/x86_64-linux-gnu/wx/config/gtk3-unicode-3.0
-	endif
-	ifeq ($(DEB_BUILD_ARCH),i386)
-		dh_auto_configure -- --disable-updates-check --with-wx-config=/usr/lib/i686-linux-gnu/wx/config/gtk3-unicode-3.0
-	endif
+override_dh_auto_configure: custom_config
+	dh_auto_configure
+
+custom_config:
+ifeq ($(DEB_BUILD_ARCH), amd64)
+	dh_auto_configure -- --disable-updates-check --with-wx-config=/usr/lib/x86_64-linux-gnu/wx/config/gtk3-unicode-3.0
+endif
+ifeq ($(DEB_BUILD_ARCH), i386)
+	dh_auto_configure -- --disable-updates-check --with-wx-config=/usr/lib/i686-linux-gnu/wx/config/gtk3-unicode-3.0
+endif
