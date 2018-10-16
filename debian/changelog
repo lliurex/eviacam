@@ -1,4 +1,4 @@
-eviacam (2.1.3-lliurex8) bionic; urgency=medium
+eviacam (2.1.3-lliurex9) bionic; urgency=medium
 
   [ juanma1980 ]
   * Update rules for fix configure options (wx-config)
