@@ -1,9 +1,9 @@
-AC_INIT([eviacam], 2.1.3)
+AC_INIT([eviacam], 2.1.4)
 AC_CONFIG_SRCDIR([src/eviacamapp.cpp])
 AC_PREREQ(2.61)
 AM_CONFIG_HEADER(config.h)
 AM_INIT_AUTOMAKE
-COPYRIGHT="© 2008-18"
+COPYRIGHT="© 2008-19"
 PUBLISHER="César Mauri Loba"
 
 AC_SUBST(COPYRIGHT, [`echo $COPYRIGHT`])
@@ -28,7 +28,7 @@ AC_PROG_LN_S
 AC_PROG_MAKE_SET
 AC_PROG_MKDIR_P
 
-ALL_LINGUAS="ca es gl it tr ast de oc fr ar he ru pt_BR ja el lt zh_TW zh_CN"
+ALL_LINGUAS="ca_ES@valencia ca es gl it tr ast de oc fr ar he ru pt_BR ja el lt zh_TW zh_CN"
 
 AM_GNU_GETTEXT([external])
 
@@ -172,12 +172,15 @@ fi
 # -----------------       wxWidgets --------------------
 
 # -----------------       opencv  --------------------
-OPENCVCONFIG='pkg-config opencv'
 AC_DEFUN([OPENCVTEST],
 [
 	AC_REQUIRE([AC_PROG_AWK])
 	AC_MSG_CHECKING([opencv version])
 	if opencvversion=`pkg-config opencv --modversion`; then
+        OPENCVCONFIG='pkg-config opencv'
+		AC_MSG_RESULT([$opencvversion])
+    elif opencvversion=`pkg-config opencv4 --modversion`; then
+        OPENCVCONFIG='pkg-config opencv4'
 		AC_MSG_RESULT([$opencvversion])
 	else
 		AC_MSG_RESULT([not found])
