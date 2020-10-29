@@ -28,7 +28,7 @@ AC_PROG_LN_S
 AC_PROG_MAKE_SET
 AC_PROG_MKDIR_P
 
-ALL_LINGUAS="ca es gl it tr ast de oc fr ar he ru pt_BR ja el lt zh_TW zh_CN"
+ALL_LINGUAS="ca_ES@valencia ca es gl it tr ast de oc fr ar he ru pt_BR ja el lt zh_TW zh_CN"
 
 AM_GNU_GETTEXT([external])
 
