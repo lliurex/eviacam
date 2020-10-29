@@ -756,7 +756,7 @@ msgstr "A&ctivar / Desactivar"
 
 #: src/wviacam.cpp:191
 msgid "&Exit"
-msgstr "&Eixir"
+msgstr "&Ix"
 
 #: src/wviacam.cpp:192
 msgid "&File"
