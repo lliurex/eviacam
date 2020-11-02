@@ -1,3 +1,2 @@
-debian/ export-ignore
 rpm/ export-ignore
 ubuntu/ export-ignore
