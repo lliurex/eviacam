@@ -48,8 +48,8 @@ po/remove-potcdate.sed
 po/*.gmo
 src/eviacam
 src/eviacamloader
-debian-src
-debian-build
+#debian-src
+#debian-build
 *.o
 *.lo
 *.la
