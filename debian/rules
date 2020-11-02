@@ -28,7 +28,7 @@ override_dh_clean:
 	debconf-updatepo
 	dh_clean
 	find po -name "*.gmo" -delete
-	-rm po/stamp-po
+	[ -f /etc/resolv.conf ] && rm po/stamp-po
 
 override_dh_auto_configure: custom_config
 	dh_auto_configure
