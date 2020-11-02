@@ -28,7 +28,7 @@ override_dh_clean:
 	debconf-updatepo
 	dh_clean
 	find po -name "*.gmo" -delete
-	[ -f po/stamp-po ] && rm po/stamp-po
+	[ -f po/stamp-po ] && rm po/stamp-po || echo "No stamp-po found"
 
 override_dh_auto_configure: custom_config
 	dh_auto_configure
