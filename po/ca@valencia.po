@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: eviacam 1.7.2\n"
 "Report-Msgid-Bugs-To: cesar@crea-si.com\n"
 "POT-Creation-Date: 2016-03-26 13:44+0100\n"
-"PO-Revision-Date: 2020-10-29 12:30+0100\n"
+"PO-Revision-Date: 2015-01-15 11:52+0200\n"
 "Last-Translator: Cesar Mauri <cesar@crea-si.com>\n"
 "Language-Team: Català\n"
-"Language: ca\n"
+"Language: ca-valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #: src/wconfiguration.h:130
 msgid "Configuration"
@@ -157,7 +157,7 @@ msgstr "Mobilitat del punter"
 #: src/wconfiguration.cpp:481
 msgid "Allow wrapping the pointer around the working area"
 msgstr ""
-"Permetre que el punter aparegui en el costat oposat\n"
+"Permetre que el punter aparega en el costat oposat\n"
 "a l'arribar al límit de l'àrea de treball"
 
 #: src/wconfiguration.cpp:485
@@ -202,9 +202,9 @@ msgid ""
 "before restarting the dwell time\n"
 "countdown."
 msgstr ""
-"Màxim desplaçament permès\n"
+"Màxim desplaçament permés\n"
 "abans de re-iniciar el compte\n"
-"enrere del temps d'espera."
+"arrere del temps d'espera."
 
 #: src/wconfiguration.cpp:522
 msgid "Allow consecutive clicks"
@@ -373,7 +373,7 @@ msgstr "Inici"
 
 #: src/wconfiguration.cpp:691 src/wwizard.cpp:1244
 msgid "Start eViacam at user logon"
-msgstr "Executar eViacam al iniciar la seva sessió"
+msgstr "Executar eViacam al iniciar la seua sessió"
 
 #: src/wconfiguration.cpp:696 src/wwizard.cpp:1250
 msgid "Enable eViacam at startup"
@@ -557,7 +557,7 @@ msgstr "Establir tecla"
 
 #: src/wconfiguration.cpp:1470 src/wconfiguration.cpp:1657
 msgid "You should restart the application to apply this change"
-msgstr "Cal que re-iniciï l'aplicació per a que aquest canvi tingui efecte."
+msgstr "Cal que re-inicie l'aplicació per a que aquest canvi tinga efecte."
 
 #: src/wconfiguration.cpp:1491
 msgid ""
@@ -599,7 +599,7 @@ msgstr "Nom de perfil invàlid."
 
 #: src/wconfiguration.cpp:1609 src/wconfiguration.cpp:1612
 msgid "Choose on-screen keyboard command"
-msgstr "Escolleixi la comanda del teclat en pantalla"
+msgstr "Escollisca la comanda del teclat en pantalla"
 
 #: src/wconfiguration.cpp:1610
 msgid "Executable files|*.exe"
@@ -644,7 +644,7 @@ msgstr "No es detecta cap càmera. Avortant."
 
 #: src/viacamcontroller.cpp:211
 msgid "Choose the camera to use"
-msgstr "Triï la càmera a utilitzar"
+msgstr "Trie la càmera a utilitzar"
 
 #: src/viacamcontroller.cpp:240
 msgid ""
@@ -748,7 +748,7 @@ msgstr "Llicència"
 
 #: src/wabout.cpp:206
 msgid "Released under the GNU/GPL v3 license. See COPYING file for details."
-msgstr "Alliberat sota llicencia GNU/GPL. Vegi fitxer COPYING per detalls."
+msgstr "Alliberat sota llicencia GNU/GPL. Veja fitxer COPYING per detalls."
 
 #: src/wviacam.cpp:189
 msgid "E&nable / Disable"
@@ -756,7 +756,7 @@ msgstr "A&ctivar / Desactivar"
 
 #: src/wviacam.cpp:191
 msgid "&Exit"
-msgstr "&Ix"
+msgstr "&Sortir"
 
 #: src/wviacam.cpp:192
 msgid "&File"
@@ -818,7 +818,7 @@ msgid ""
 "necessary."
 msgstr ""
 "Visor de velocitat de captura. Per un correcte\n"
-"funcionament ha de ser superior a 25. Redueixi\n"
+"funcionament ha de ser superior a 25. Reduïsca\n"
 "el temps d'exposició de la càmera si és necessari."
 
 #: src/wviacam.cpp:333
@@ -866,7 +866,7 @@ msgstr ""
 
 #: src/wgetkey.cpp:137
 msgid "Press the desired key or 'Esc' to cancel this action."
-msgstr "Premi la tecla desitjada o 'Esc' per cancel·lar."
+msgstr "Prema la tecla desitjada o 'Esc' per cancel·lar."
 
 #: src/wgetkey.h:53
 msgid "Get key"
@@ -906,7 +906,7 @@ msgstr "Benvingut a l'assistent de configuració de l'eViacam"
 
 #: src/wwizard.cpp:388
 msgid "Click Next to continue."
-msgstr "Faci clic a Següent per continuar"
+msgstr "Faça clic a Següent per continuar"
 
 #: src/wwizard.cpp:532 src/wwizard.cpp:1603
 msgid "Pointer calibration"
@@ -929,7 +929,7 @@ msgstr ""
 "Després d'aquest procés, podrà ajustar manualment els paràmetres esmentats.\n"
 "\n"
 "NOTA: el procediment de calibratge assistit activarà el control del punter "
-"per a que pugui provar la configuració."
+"per a que puga provar la configuració."
 
 #: src/wwizard.cpp:550
 msgid "Perform assisted calibration"
@@ -953,7 +953,7 @@ msgstr "Mode de clic"
 
 #: src/wwizard.cpp:883
 msgid "Click here to test"
-msgstr "Faci clic aquí per provar"
+msgstr "Faça clic ací per provar"
 
 #: src/wwizard.cpp:889
 msgid "Dwell Click (default)"
@@ -1035,7 +1035,7 @@ msgid ""
 "this value is below this threshold you may need to manually adjust the "
 "camera settings."
 msgstr ""
-"Per obtenir el millor rendiment possible, la velocitat de captura hauria de "
+"Per obtindre el millor rendiment possible, la velocitat de captura hauria de "
 "ser igual o superior a 25 fps. eViacam intenta configurar la càmera, però si "
 "aquest valor està per sota d'aquest llindar pot ser necessari ajustar "
 "manualment la configuració de la càmera."
@@ -1068,7 +1068,7 @@ msgid ""
 msgstr ""
 "eViacam intentarà detectar el rostre automàticament. Tot i que, si és "
 "necessari, pot desactivar aquesta funció i ajustar manualment l'àrea de "
-"seguiment (rectangle blau) fent que el seu rostre aparegui a l'interior.\n"
+"seguiment (rectangle blau) fent que el seu rostre aparega a l'interior.\n"
 
 #: src/wwizard.cpp:1917
 msgid "Locate face automatically (recommended)"
@@ -1159,7 +1159,7 @@ msgstr "Disminuir la velocitat de l'eix Y"
 
 #: src/checkupdates.cpp:216
 msgid "Error checking for updates. Try again later."
-msgstr "Error comprovant actualitzacions. Intenti-ho més tard."
+msgstr "Error comprovant actualitzacions. Intente-ho més tard."
 
 #: src/checkupdates.cpp:249
 msgid "Cannot resolve host name: "
@@ -1172,7 +1172,7 @@ msgstr "Connexió fallida: "
 #: src/checkupdates.cpp:259
 msgid "Sorry. Version file not found. Please report us."
 msgstr ""
-"Em sap greu. Fitxer de versió no trobat. Si us plau, faci'ns saber aquest "
+"Em sap greu. Fitxer de versió no trobat. Per favor, faça'ns saber aquest "
 "error."
 
 #: src/checkupdates.cpp:263
