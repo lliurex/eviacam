@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: eviacam 1.7.2\n"
 "Report-Msgid-Bugs-To: cesar@crea-si.com\n"
 "POT-Creation-Date: 2016-03-26 13:44+0100\n"
-"PO-Revision-Date: 2021-02-17 12:02+0000\n"
+"PO-Revision-Date: 2021-02-19 11:30+0000\n"
 "Last-Translator: Angels <gimenez_angcam@gva.es>\n"
 "Language-Team: Valencian <http://weblate.lliurex.net/projects/eviacam/"
 "eviacam/ca@valencia/>\n"
@@ -30,19 +30,19 @@ msgstr "Calibratge del moviment"
 
 #: src/wconfiguration.cpp:353 src/wwizard.cpp:1620
 msgid "X axis speed"
-msgstr "Velocitat eix X"
+msgstr "Velocitat de l'eix X"
 
 #: src/wconfiguration.cpp:358
 msgid "Sets response sensitivity for the X axis."
-msgstr "Configura la sensibilitat del moviment per l'eix X."
+msgstr "Estableix la sensibilitat del moviment per l'eix X."
 
 #: src/wconfiguration.cpp:361 src/wwizard.cpp:1629
 msgid "Y axis speed"
-msgstr "Velocitat eix Y"
+msgstr "Velocitat de l'eix Y"
 
 #: src/wconfiguration.cpp:366
 msgid "Sets response sensitivity for the Y axis."
-msgstr "Configura la sensibilitat del moviment per l'eix Y."
+msgstr "Estableix la sensibilitat del moviment per l'eix Y."
 
 #: src/wconfiguration.cpp:369
 msgid "Acceleration"
@@ -54,7 +54,7 @@ msgid ""
 "0 means no acceleration and\n"
 "5 maximum acceleration."
 msgstr ""
-"Configura l'acceleració del punter.\n"
+"Estableix l'acceleració del punter.\n"
 "0 desactiva l'acceleració i\n"
 "5 configura l'acceleració màxima."
 
@@ -63,150 +63,125 @@ msgid "Smoothness"
 msgstr "Suavitzat"
 
 #: src/wconfiguration.cpp:382
-#, fuzzy
 msgid ""
 "Tremor reduction filter.\n"
 "0 means no filter and \n"
 "8 maximum filtering."
 msgstr ""
-"Filtre per reduir tremolors\n"
+"Filtre per a reduir tremolors\n"
 "0 desactiva el filtre i\n"
-"8 configura el filtrat màxim."
+"8 configura el filtratge màxim."
 
 #: src/wconfiguration.cpp:385
-#, fuzzy
 msgid "Motion threshold"
 msgstr "Llindar de moviment"
 
 #: src/wconfiguration.cpp:390
-#, fuzzy
 msgid ""
 "Minimum displacement (in pixels)\n"
 "to start moving pointer."
 msgstr ""
-"Desplaçament mínim (en píxels) abans\n"
-"de començar a moure el punter."
+"Desplaçament mínim (en píxels) \n"
+"per a començar a moure el punter."
 
 #: src/wconfiguration.cpp:402
-#, fuzzy
 msgid "Assisted calibration"
 msgstr "Calibratge assistit"
 
 #: src/wconfiguration.cpp:405
-#, fuzzy
 msgid "Motion"
 msgstr "Moviment"
 
 #: src/wconfiguration.cpp:411
-#, fuzzy
 msgid "Workspace limit"
 msgstr "Límit de l'àrea de treball"
 
 #: src/wconfiguration.cpp:414 src/hotkeymanager.cpp:59
-#, fuzzy
 msgid "Enable workspace limit"
-msgstr "Activar el límit de l'àrea de treball"
+msgstr "Habilita el límit de l'àrea de treball"
 
 #: src/wconfiguration.cpp:417
-#, fuzzy
 msgid ""
 "Confines the mouse pointer\n"
 "to the selected area."
 msgstr ""
-"Confina el punter del ratolí\n"
-"dins l'àrea seleccionada."
+"Limita el punter del ratolí\n"
+"a l'àrea seleccionada."
 
 #: src/wconfiguration.cpp:426
-#, fuzzy
 msgid "Top"
 msgstr "Dalt"
 
 #: src/wconfiguration.cpp:431
-#, fuzzy
 msgid "Top limit workspace."
-msgstr "Limit superior."
+msgstr "Límit superior"
 
 #: src/wconfiguration.cpp:435 src/wconfiguration.cpp:449
 #: src/wconfiguration.cpp:461 src/wconfiguration.cpp:475
-#, fuzzy
 msgid "%"
 msgstr "%"
 
 #: src/wconfiguration.cpp:440 ../src/resources/clickWindowBitmap.xrc:43
 #: ../src/resources/clickWindowBitmapVertical.xrc:43
-#, fuzzy
 msgid "Left"
 msgstr "Esquerra"
 
 #: src/wconfiguration.cpp:445
-#, fuzzy
 msgid "Left limit workspace."
-msgstr "Límit esquerre."
+msgstr "Límit esquerre"
 
 #: src/wconfiguration.cpp:452 ../src/resources/clickWindowBitmap.xrc:63
 #: ../src/resources/clickWindowBitmapVertical.xrc:63
-#, fuzzy
 msgid "Right"
 msgstr "Dreta"
 
 #: src/wconfiguration.cpp:457
-#, fuzzy
 msgid "Right limit workspace."
-msgstr "Límit dret."
+msgstr "Límit dret"
 
 #: src/wconfiguration.cpp:466
-#, fuzzy
 msgid "Bottom"
 msgstr "Baix"
 
 #: src/wconfiguration.cpp:471
-#, fuzzy
 msgid "Bottom limit workspace."
-msgstr "Límit inferior."
+msgstr "Límit inferior"
 
 #: src/wconfiguration.cpp:478
-#, fuzzy
 msgid "Pointer wrapping"
-msgstr "Mobilitat del punter"
+msgstr "Ajustament de la mobilitat del punter"
 
 #: src/wconfiguration.cpp:481
-#, fuzzy
 msgid "Allow wrapping the pointer around the working area"
 msgstr ""
 "Permetre que el punter aparega en el costat oposat\n"
-"a l'arribar al límit de l'àrea de treball"
+"en arribar al límit de l'àrea de treball"
 
 #: src/wconfiguration.cpp:485
-#, fuzzy
 msgid "Workspace"
 msgstr "Àrea de treball"
 
 #: src/wconfiguration.cpp:491
-#, fuzzy
 msgid "Dwell click"
 msgstr "Clic per espera"
 
 #: src/wconfiguration.cpp:494
-#, fuzzy
 msgid "Enable dwell click"
-msgstr "Activar el clic per espera"
+msgstr "Habilita el clic per espera"
 
 #: src/wconfiguration.cpp:497
-#, fuzzy
 msgid ""
 "Enable/Disable automatic (dwell)\n"
 "click generation mechanism."
 msgstr ""
 "Activa/Desactiva el mecanisme\n"
-"de generació de clic per espera."
+"de generació de clic per espera"
 
 #: src/wconfiguration.cpp:504
-#, fuzzy
 msgid "Dwell time (ds)"
 msgstr "Temps d'espera (ds)"
 
 #: src/wconfiguration.cpp:509
-#, fuzzy
 msgid ""
 "Time to wait (deciseconds) \n"
 "before sending a click."
@@ -215,601 +190,501 @@ msgstr ""
 "abans de generar un clic."
 
 #: src/wconfiguration.cpp:512
-#, fuzzy
 msgid "Dwell area"
 msgstr "Àrea de clic"
 
 #: src/wconfiguration.cpp:517
-#, fuzzy
 msgid ""
 "Maximum allowed displacement\n"
 "before restarting the dwell time\n"
 "countdown."
 msgstr ""
-"Màxim desplaçament permés\n"
-"abans de re-iniciar el compte\n"
+"Desplaçament màxim permés\n"
+"abans de reiniciar el compte\n"
 "arrere del temps d'espera."
 
 #: src/wconfiguration.cpp:522
-#, fuzzy
 msgid "Allow consecutive clicks"
 msgstr "Permet clics consecutius"
 
 #: src/wconfiguration.cpp:525
-#, fuzzy
 msgid ""
 "Send multiple clicks\n"
 "when the pointer is stopped."
 msgstr ""
 "Permet enviar múltiples clics\n"
-"quan el punter està aturat."
+"quan el punter està parat."
 
 #: src/wconfiguration.cpp:528
-#, fuzzy
 msgid "Beep on click"
-msgstr "Reproduir so amb el clic"
+msgstr "So amb el clic"
 
 #: src/wconfiguration.cpp:531
-#, fuzzy
 msgid "Play sound when click generated."
 msgstr "Reprodueix un so al generar un clic."
 
 #: src/wconfiguration.cpp:535
-#, fuzzy
 msgid "Allow visual alerts"
-msgstr "Activar alertes visuals"
+msgstr "Activa les alertes visuals"
 
 #: src/wconfiguration.cpp:540
-#, fuzzy
 msgid "Click window"
-msgstr "Finestra del Clic"
+msgstr "Finestra del clic"
 
 #: src/wconfiguration.cpp:543
-#, fuzzy
 msgid "Show Click Window"
-msgstr "Mostrar la Finestra del Clic"
+msgstr "Mostra la finestra del clic"
 
 #: src/wconfiguration.cpp:549
-#, fuzzy
 msgid "Design:"
-msgstr "Disseny"
+msgstr "Disseny:"
 
 #: src/wconfiguration.cpp:553 src/wconfiguration.cpp:744
-#, fuzzy
 msgid "Normal"
 msgstr "Normal"
 
 #: src/wconfiguration.cpp:554
-#, fuzzy
 msgid "Thin"
 msgstr "Fi"
 
 #: src/wconfiguration.cpp:558
-#, fuzzy
 msgid "Behaviour:"
-msgstr "Comportament"
+msgstr "Comportament:"
 
 #: src/wconfiguration.cpp:562
-#, fuzzy
 msgid "Normal mode"
 msgstr "Mode normal"
 
 #: src/wconfiguration.cpp:563
-#, fuzzy
 msgid "Fast mode"
 msgstr "Mode ràpid"
 
 #: src/wconfiguration.cpp:566
-#, fuzzy
 msgid ""
 "Fast mode enables click type\n"
 "selection by hovering the mouse\n"
 "pointer over the click window\n"
 "buttons."
 msgstr ""
-"El mode ràpid permet escollir el tipus de\n"
-"clic passant el punter del ratolí per sobre\n"
-"dels botons de la finestra del clic."
+"El mode ràpid permet escollir el tipus \n"
+"de clic passant el punter del ratolí \n"
+"per damunt dels botons de la finestra \n"
+"del clic."
 
 #: src/wconfiguration.cpp:570
-#, fuzzy
 msgid "Location:"
 msgstr "Ubicació:"
 
 #: src/wconfiguration.cpp:576
-#, fuzzy
 msgid "Floating horizontal"
-msgstr "Flotant horitzontal"
+msgstr "Horitzontal flotant"
 
 #: src/wconfiguration.cpp:577
-#, fuzzy
 msgid "Floating vertical"
-msgstr "Flotant vertical"
+msgstr "Vertical flotant"
 
 #: src/wconfiguration.cpp:578
-#, fuzzy
 msgid "Top docked"
-msgstr "Acoblat superior"
+msgstr "Acoblada dalt"
 
 #: src/wconfiguration.cpp:579
-#, fuzzy
 msgid "Bottom docked"
-msgstr "Acoblada inferior"
+msgstr "Acoblada baix"
 
 #: src/wconfiguration.cpp:580
-#, fuzzy
 msgid "Left docked"
-msgstr "Acoblada esquerra"
+msgstr "Acoblada a l'esquerra"
 
 #: src/wconfiguration.cpp:581
-#, fuzzy
 msgid "Right docked"
-msgstr "Acoblada dreta"
+msgstr "Acoblada a la dreta"
 
 #: src/wconfiguration.cpp:587
-#, fuzzy
 msgid "Auto-hide"
 msgstr "Amaga automàticament"
 
 #: src/wconfiguration.cpp:596 src/wwizard.cpp:898
-#, fuzzy
 msgid "Gesture click"
 msgstr "Clic per gestos"
 
 #: src/wconfiguration.cpp:599
-#, fuzzy
 msgid "Enable gesture click"
-msgstr "Activar clic per gestos"
+msgstr "Activa clic per gestos"
 
 #: src/wconfiguration.cpp:605
-#, fuzzy
 msgid "Move left:"
-msgstr "Esquerra:"
+msgstr "Mou a l'esquerra:"
 
 #: src/wconfiguration.cpp:609 src/wconfiguration.cpp:622
 #: src/wconfiguration.cpp:635 src/wconfiguration.cpp:648 src/wviacam.cpp:215
-#, fuzzy
 msgid "Disable"
-msgstr "Desactivar"
+msgstr "Desactiva"
 
 #: src/wconfiguration.cpp:610 src/wconfiguration.cpp:623
 #: src/wconfiguration.cpp:636 src/wconfiguration.cpp:649 src/wwizard.cpp:1068
-#, fuzzy
 msgid "Left click"
 msgstr "Clic esquerre"
 
 #: src/wconfiguration.cpp:611 src/wconfiguration.cpp:624
 #: src/wconfiguration.cpp:637 src/wconfiguration.cpp:650 src/wwizard.cpp:1101
-#, fuzzy
 msgid "Middle click"
 msgstr "Clic central"
 
 #: src/wconfiguration.cpp:612 src/wconfiguration.cpp:625
 #: src/wconfiguration.cpp:638 src/wconfiguration.cpp:651 src/wwizard.cpp:1080
-#, fuzzy
 msgid "Right click"
 msgstr "Clic dret"
 
 #: src/wconfiguration.cpp:613 src/wconfiguration.cpp:626
 #: src/wconfiguration.cpp:639 src/wconfiguration.cpp:652 src/wwizard.cpp:1090
-#, fuzzy
 msgid "Double click"
 msgstr "Doble clic"
 
 #: src/wconfiguration.cpp:614 src/wconfiguration.cpp:627
 #: src/wconfiguration.cpp:640 src/wconfiguration.cpp:653
-#, fuzzy
 msgid "Drag click"
 msgstr "Clic d'arrossegament"
 
 #: src/wconfiguration.cpp:618
-#, fuzzy
 msgid "Move right:"
-msgstr "Dreta:"
+msgstr "Mou a la dreta:"
 
 #: src/wconfiguration.cpp:631
-#, fuzzy
 msgid "Move up:"
-msgstr "Amunt:"
+msgstr "Mou amunt:"
 
 #: src/wconfiguration.cpp:644
-#, fuzzy
 msgid "Move down:"
-msgstr "Avall:"
+msgstr "Mou avall:"
 
 #: src/wconfiguration.cpp:662
-#, fuzzy
 msgid "Click"
 msgstr "Clic"
 
 #: src/wconfiguration.cpp:668 src/wconfiguration.cpp:681
-#, fuzzy
 msgid "Hotkeys"
-msgstr "Tecles d'accés directe"
+msgstr "Tecles de drecera"
 
 #: src/wconfiguration.cpp:687
-#, fuzzy
 msgid "Startup"
 msgstr "Inici"
 
 #: src/wconfiguration.cpp:691 src/wwizard.cpp:1244
-#, fuzzy
 msgid "Start eViacam at user logon"
-msgstr "Executar eViacam al iniciar la seua sessió"
+msgstr "Executa l'eViacam en iniciar la sessió d'usuari"
 
 #: src/wconfiguration.cpp:696 src/wwizard.cpp:1250
-#, fuzzy
 msgid "Enable eViacam at startup"
-msgstr "Activar l'eViacam un cop engegat"
+msgstr "Activa l'eViacam una vegada iniciat"
 
 #: src/wconfiguration.cpp:699 src/wwizard.cpp:1253
-#, fuzzy
 msgid ""
 "If checked the program automatically \n"
 "enables cursor control at startup."
 msgstr ""
-"Si està seleccionat activa el control del\n"
-"punter a l'engegar el programa."
+"Si està seleccionat, activa el control del\n"
+"punter en iniciar el programa."
 
 #: src/wconfiguration.cpp:702
-#, fuzzy
 msgid "On-screen keyboard command"
-msgstr "Comanda del teclat en pantalla"
+msgstr "Ordre del teclat en pantalla"
 
 #: src/wconfiguration.cpp:709
-#, fuzzy
 msgid "Command to run an external on-screen keyboard application."
-msgstr "Comanda per executar un programa extern de teclat en pantalla."
+msgstr "Ordre per a executar un programa extern de teclat en pantalla"
 
 #: src/wconfiguration.cpp:712
-#, fuzzy
 msgid "Browse..."
-msgstr "Cercar..."
+msgstr "Cerca..."
 
 #: src/wconfiguration.cpp:717
-#, fuzzy
 msgid "Face localization and tracking"
-msgstr "Localització facial i seguiment"
+msgstr "Localització i seguiment facial"
 
 #: src/wconfiguration.cpp:722
-#, fuzzy
 msgid "Use legacy face tracking algorithm"
-msgstr "Emprar algorisme antic de seguiment facial"
+msgstr "Utilitza l'algorisme de seguiment facial anterior."
 
 #: src/wconfiguration.cpp:725
-#, fuzzy
 msgid ""
 "Use old face tracking method\n"
 "(not recommended)."
 msgstr ""
-"Usar l'antic mètode de seguiment facial\n"
+"Utilitza el mètode anterior de seguiment facial\n"
 "(no recomanat)."
 
 #: src/wconfiguration.cpp:730
-#, fuzzy
 msgid "Locate face automatically"
-msgstr "Localitzar rostre automàticament"
+msgstr "Localitza la cara automàticament"
 
 #: src/wconfiguration.cpp:733
-#, fuzzy
 msgid ""
 "When enabled tries to automatically\n"
 "detect your face and center the\n"
 "tracking area."
 msgstr ""
-"Quan s'activa intenta detectar el seu\n"
-"rostre i centrar l'àrea de seguiment\n"
+"Quan s'activa, intenta detectar la vostra\n"
+"cara i centrar l'àrea de seguiment\n"
 "de forma automàtica."
 
 #: src/wconfiguration.cpp:738
-#, fuzzy
 msgid "CPU usage"
 msgstr "Ús de la CPU"
 
 #: src/wconfiguration.cpp:742
-#, fuzzy
 msgid "Lowest"
 msgstr "Molt baix"
 
 #: src/wconfiguration.cpp:743
-#, fuzzy
 msgid "Low"
 msgstr "Baix"
 
 #: src/wconfiguration.cpp:745
-#, fuzzy
 msgid "High"
 msgstr "Alt"
 
 #: src/wconfiguration.cpp:746
-#, fuzzy
 msgid "Highest"
 msgstr "Molt alt"
 
 #: src/wconfiguration.cpp:750
-#, fuzzy
 msgid "Stop pointer when face not detected"
-msgstr "Atura el punter quan no es detecta el rostre"
+msgstr "Deté el punter quan no es detecta la cara"
 
 #: src/wconfiguration.cpp:753
-#, fuzzy
 msgid "eViacam is only enabled when face is detected."
-msgstr "eViacam només s'activa quan es detecta el rostre."
+msgstr "eViacam només s'activa quan es detecta la cara."
 
 #: src/wconfiguration.cpp:759
-#, fuzzy
 msgid "After"
 msgstr "Després de"
 
 #: src/wconfiguration.cpp:765
-#, fuzzy
 msgid "seconds"
 msgstr "segons"
 
 #: src/wconfiguration.cpp:772
-#, fuzzy
 msgid "Mouse actions"
 msgstr "Accions del ratolí"
 
 #: src/wconfiguration.cpp:779
-#, fuzzy
 msgid "Increase this value if some application ignores click events."
 msgstr ""
-"Incrementar aquest valor si alguna aplicació ignora esdeveniments de clic."
+"Incrementeu aquest valor si alguna aplicació ignora esdeveniments de clic."
 
 #: src/wconfiguration.cpp:782
-#, fuzzy
 msgid "ms delay between up and down events"
-msgstr "ms retard entre esdeveniments down i up"
+msgstr "ms de retard entre accions d'avall i amunt"
 
 #: src/wconfiguration.cpp:785
-#, fuzzy
 msgid "Advanced"
 msgstr "Avançat"
 
 #: src/wconfiguration.cpp:787
-#, fuzzy
 msgid "Profile options"
 msgstr "Opcions del perfil"
 
 #: src/wconfiguration.cpp:793
-#, fuzzy
 msgid "Profile management"
 msgstr "Gestió de perfils"
 
 #: src/wconfiguration.cpp:798
-#, fuzzy
 msgid "Select profile:"
-msgstr "Escollir perfil"
+msgstr "Seleccioneu el perfil:"
 
 #: src/wconfiguration.cpp:800 src/wconfiguration.cpp:806
-#, fuzzy
 msgid "Chooses desired active profile"
 msgstr "Permet escollir el perfil actiu"
 
 #: src/wconfiguration.cpp:809 src/wconfiguration.cpp:1546
-#, fuzzy
 msgid "Add profile"
 msgstr "Nou perfil"
 
 #: src/wconfiguration.cpp:812
-#, fuzzy
 msgid "Delete profile"
-msgstr "Esborrar perfil"
+msgstr "Suprimeix el perfil"
 
 #: src/wconfiguration.cpp:817
-#, fuzzy
 msgid "Camera"
 msgstr "Càmera"
 
 #: src/wconfiguration.cpp:826
-#, fuzzy
 msgid "Settings..."
 msgstr "Opcions..."
 
 #: src/wconfiguration.cpp:829
-#, fuzzy
 msgid "Change"
-msgstr "Canviar"
+msgstr "Canvi"
 
 #: src/wconfiguration.cpp:834
-#, fuzzy
 msgid "Language"
 msgstr "Idioma"
 
 #: src/wconfiguration.cpp:839
-#, fuzzy
 msgid "Language:"
 msgstr "Idioma:"
 
 #: src/wconfiguration.cpp:846 src/checkupdates_ui.h:60
-#, fuzzy
 msgid "Check for updates"
-msgstr "Comprovar actualitzacions"
+msgstr "Comprova si hi ha actualitzacions"
 
 #: src/wconfiguration.cpp:849
-#, fuzzy
 msgid "Automatically check for updates at startup"
-msgstr "Comprovar si hi ha actualitzacions a l'inici"
+msgstr "Comprova si hi ha actualitzacions quan s'inicie"
 
 #: src/wconfiguration.cpp:853
-#, fuzzy
 msgid "General options"
 msgstr "Opcions generals"
 
 #: src/wconfiguration.cpp:860 src/newtrackerinformationdlg.cpp:174
-#, fuzzy
 msgid "&OK"
-msgstr "&Acceptar"
+msgstr "&Accepta"
 
 #: src/wconfiguration.cpp:863
-#, fuzzy
 msgid "&Cancel"
-msgstr "&Cancel·lar"
+msgstr "&Cancel·la"
 
 #: src/wconfiguration.cpp:872 src/wconfiguration.cpp:873
 #: src/wconfiguration.cpp:874 src/wconfiguration.cpp:875
-#, fuzzy
 msgid "Key:"
 msgstr "Tecla:"
 
 #: src/wconfiguration.cpp:901
-#, fuzzy
 msgid "Set key"
-msgstr "Establir tecla"
+msgstr "Estableix la tecla"
 
 #: src/wconfiguration.cpp:1470 src/wconfiguration.cpp:1657
-#, fuzzy
 msgid "You should restart the application to apply this change"
-msgstr "Cal que re-inicie l'aplicació per a que aquest canvi tinga efecte."
+msgstr "Reinicieu l'aplicació perquè s'aplique aquest canvi."
 
 #: src/wconfiguration.cpp:1491
-#, fuzzy
 msgid ""
 "Current profile has unsaved changes.\n"
 "Continue anyway?"
 msgstr ""
 "No s'han guardat els canvis del perfil actual\n"
-"Continuar sense guardar?"
+"Voleu continuar sense guardar igualment?"
 
 #: src/wconfiguration.cpp:1497
-#, c-format, fuzzy
+#, c-format
 msgid ""
 "This action will load %s profile settings.\n"
 "Are you sure you want to continue?"
 msgstr ""
 "Aquesta acció carregarà el perfil %s.\n"
-"Està segur que vol continuar?"
+"Segur que voleu continuar?"
 
 #: src/wconfiguration.cpp:1528
-#, c-format, fuzzy
+#, c-format
 msgid ""
 "This action will delete %s profile.\n"
 "Are you sure you want to continue?"
 msgstr ""
 "Aquesta acció esborrarà el perfil %s.\n"
-"Està segur que vol continuar?"
+"Segur que voleu continuar?"
 
 #: src/wconfiguration.cpp:1546
-#, fuzzy
 msgid "Enter new profile name"
 msgstr "Nom del nou perfil"
 
 #: src/wconfiguration.cpp:1557
-#, fuzzy
 msgid "Profile already exists."
 msgstr "El perfil ja existeix."
 
 #: src/wconfiguration.cpp:1563
-#, fuzzy
 msgid "Invalid profile name."
-msgstr "Nom de perfil invàlid."
+msgstr "El nom de perfil no és vàlid."
 
 #: src/wconfiguration.cpp:1609 src/wconfiguration.cpp:1612
-#, fuzzy
 msgid "Choose on-screen keyboard command"
-msgstr "Escollisca la comanda del teclat en pantalla"
+msgstr "Trieu l'ordre del teclat en pantalla"
 
 #: src/wconfiguration.cpp:1610
-#, fuzzy
 msgid "Executable files|*.exe"
 msgstr "Arxius executables|*.exe"
 
 #: src/wconfiguration.cpp:1725
-#, fuzzy
 msgid ""
 "This action could make you lose the control of the computer.\n"
 "Do you want to continue?"
 msgstr ""
-"Aquesta acció li pot fer perdre el control de l'ordinador.\n"
-"Està segur que vol continuar?"
+"Aquesta acció podria fer-vos perdre el control de l'ordinador.\n"
+"Segur que voleu continuar?"
 
 #: src/wconfiguration.cpp:1725 src/wconfiguration.cpp:1860
 #: src/viacamcontroller.cpp:436 src/cmotioncalibration.cpp:186
-#, fuzzy
 msgid "eViacam warning"
-msgstr "Advertiment"
+msgstr "Avís d'eViacam"
 
 #: src/wconfiguration.cpp:1860
-#, fuzzy
 msgid "Discard changes?"
-msgstr "Descartar canvis?"
+msgstr "Voleu descartar els canvis?"
 
 #: src/clickwindowtext.cpp:210 src/clickwindowbitmap.cpp:251
 #: ../src/resources/clickWindowBitmap.xrc:98
 #: ../src/resources/clickWindowBitmapVertical.xrc:98
 #: ../src/resources/clickWindowText.xrc:70
 #: ../src/resources/clickWindowTextVertical.xrc:70
-#, fuzzy
 msgid "Hide main window"
-msgstr "Oculta finestra"
+msgstr "Oculta la finestra principal"
 
 #: src/clickwindowtext.cpp:212 src/clickwindowbitmap.cpp:255
-#, fuzzy
 msgid "Show main window"
-msgstr "Mostra finestra"
+msgstr "Mostra la finestra principal"
 
 #: src/wabout.h:51
-#, fuzzy
 msgid "About Enable Viacam"
 msgstr "Quant a Enable Viacam"
 
 #: src/viacamcontroller.cpp:176
-#, fuzzy
 msgid "Not detected any camera. Aborting"
-msgstr "No es detecta cap càmera. Avortant."
+msgstr "No es detecta cap càmera. S'està cancel·lant."
 
 #: src/viacamcontroller.cpp:211
-#, fuzzy
 msgid "Choose the camera to use"
-msgstr "Trie la càmera a utilitzar"
+msgstr "Trieu la càmera a utilitzar"
 
 #: src/viacamcontroller.cpp:240
-#, fuzzy
 msgid ""
 "Can not initialize the camera.\n"
 "Perhaps is being used by other application."
 msgstr ""
 "No es pot inicialitzar la càmera.\n"
-"Potser està essent utilitzada per una altra aplicació."
+"Potser està sent utilitzada per una altra aplicació."
 
 #: src/viacamcontroller.cpp:436
-#, fuzzy
 msgid ""
 "This action will disable eViacam.\n"
 "Are you sure?"
 msgstr ""
 "Aquesta acció desactivarà eViacam.\n"
-"Està segur?"
+"Esteu segur?"
 
 #: src/viacamcontroller.cpp:465
-#, fuzzy
 msgid ""
 "On-screen keyboard command not set.\n"
 "Please, configure it through options dialog."
 msgstr ""
-"La comanda obrir el teclat en pantalla no està definida.La pot configurar a "
-"través del diàleg de configuració."
+"L'ordre d'obrir el teclat en pantalla no està definida.\n"
+"La podeu configurar a través del diàleg de configuració."
 
 #: src/viacamcontroller.cpp:465 src/viacamcontroller.cpp:479
 #: wxcamwindow/capturethread.cpp:69
-#, fuzzy
 msgid "eViacam error"
-msgstr "Error"
+msgstr "S'ha produït un error d'eViacam"
 
 #: src/viacamcontroller.cpp:475
-#, c-format, fuzzy
+#, c-format
 msgid ""
 "Can't execute on-screen keyboard program.\n"
 "Command %s failed.\n"
 "Please, configure it through options dialog."
 msgstr ""
-"No ha estat possible executar el teclat en pantalla.\n"
-"La comanda %s ha fallat.\n"
-"Configuri-la a través del diàleg de configuració."
+"No ha sigut possible executar el teclat en pantalla.\n"
+"L'ordre %s ha fallat.\n"
+"Configureu-la a través del diàleg d'opcions."
 
 #: src/viacamcontroller.cpp:477
-#, fuzzy
 msgid ""
 "\n"
 "\n"
@@ -821,261 +696,222 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Sota Windows Vista/7 s'han detectat problemes amb\n"
-"el teclat en pantalla integrat al sistema (osk). Aquests\n"
-"problemes s'estan investigant. Mentrestant pot voler\n"
-"desactivar el Control de Comptes d'Usuari (UAC) per\n"
-"evitar aquests problemes o  provar un altre teclat en\n"
-"pantalla, e.g. Click-N-Type."
+"Sota Windows Vista/7 s'han detectat problemes ambel teclat \n"
+"en pantalla integrat al sistema (OSK). Aquests problemes \n"
+"s'estan investigant. Mentrestant podeu desactivar \n"
+"el control de comptes d'usuari (UAC) per a evitar aquests \n"
+"problemes o provar un altre teclat en pantalla, p. ex. Click-N-Type."
 
 #: src/viacamcontroller.cpp:551
-#, fuzzy
 msgid ""
 "Note that adjusting the camera controls while eViacam\n"
 "is enabled may cause loss of pointer control.\n"
 "Are you sure you want to continue?"
 msgstr ""
 "Tingueu en compte que l'ajust dels controls de la càmera\n"
-"mentre l'eViacam està habilitat pot provocar la pèrdua del\n"
-"control del punter. \n"
-"Està segur que vol continuar?"
+"mentre l'eViacam està habilitat pot provocar la pèrdua del control del "
+"punter. \n"
+"Segur que voleu continuar?"
 
 #: src/wabout.cpp:147 src/wcameradialog.cpp:164
-#, fuzzy
 msgid "Close"
-msgstr "Tancar"
+msgstr "Tanca"
 
 #: src/wabout.cpp:159
-#, fuzzy
 msgid "A webcam based mouse emulator"
 msgstr "Emulador de ratolí a través de càmera web"
 
 #: src/wabout.cpp:165
-#, fuzzy
 msgid ""
 "If you find this software useful then please consider \t\t<a "
 "href='donation'>making a small donation</a> to show your appreciation "
 "\t\tand help support the continued development. Thanks!\t"
 msgstr ""
-"Si aquest programari li resulta útil valori la possibilitat de \t\t<a "
-"href='donation'>fer una petita donació</a> per mostrar el seu agraïment "
-"\t\ti contribuir al desenvolupament continuat. Gràcies!\t"
+"Si aquest programari us resulta útil, valoreu la possibilitat de\t\t<a "
+"href='donation'>fer una xixoteta donació</a> per a mostrar el vostre "
+"agraïment \t\ti contribuir-ne al desenvolupament continuat. Gràcies!\t"
 
 #: src/wabout.cpp:170
-#, fuzzy
 msgid "Visit website"
-msgstr "Visitar el lloc web"
+msgstr "Visita el lloc web"
 
 #: src/wabout.cpp:175
-#, fuzzy
 msgid "Thanks"
 msgstr "Gràcies"
 
 #: src/wabout.cpp:202
-#, fuzzy
 msgid "License"
 msgstr "Llicència"
 
 #: src/wabout.cpp:206
-#, fuzzy
 msgid "Released under the GNU/GPL v3 license. See COPYING file for details."
-msgstr "Alliberat sota llicencia GNU/GPL. Veja fitxer COPYING per detalls."
+msgstr ""
+"Alliberat sota llicencia GNU/GPL. Vegeu el fitxer COPYING per a més detalls."
 
 #: src/wviacam.cpp:189
-#, fuzzy
 msgid "E&nable / Disable"
-msgstr "A&ctivar / Desactivar"
+msgstr "A&ctiva / Desactiva"
 
 #: src/wviacam.cpp:191
-#, fuzzy
 msgid "&Exit"
-msgstr "&Sortir"
+msgstr "&Ix"
 
 #: src/wviacam.cpp:192
-#, fuzzy
 msgid "&File"
 msgstr "&Arxiu"
 
 #: src/wviacam.cpp:194
-#, fuzzy
 msgid "&Wizard..."
 msgstr "&Assistent..."
 
 #: src/wviacam.cpp:196
-#, fuzzy
 msgid "&Options..."
 msgstr "&Opcions..."
 
 #: src/wviacam.cpp:197
-#, fuzzy
 msgid "&Configuration"
 msgstr "&Configuració"
 
 #: src/wviacam.cpp:199
-#, fuzzy
 msgid "&Help contents"
-msgstr "&Continguts ajuda"
+msgstr "&Continguts d'ajuda"
 
 #: src/wviacam.cpp:201
-#, fuzzy
 msgid "Check for &updates"
-msgstr "&Comprovar actualitzacions"
+msgstr "&Comprova si hi ha actualitzacions"
 
 #: src/wviacam.cpp:204
-#, fuzzy
 msgid "&About..."
 msgstr "&Quant a..."
 
 #: src/wviacam.cpp:205
-#, fuzzy
 msgid "&Help"
 msgstr "A&juda"
 
 #: src/wviacam.cpp:212
-#, fuzzy
 msgid "Enable"
-msgstr "Activar"
+msgstr "Activa"
 
 #: src/wviacam.cpp:219
-#, fuzzy
 msgid "Click Window"
 msgstr "Finestra del clic"
 
 #: src/wviacam.cpp:222
-#, fuzzy
 msgid "On-screen keyboard"
 msgstr "Teclat en pantalla"
 
 #: src/wviacam.cpp:226
-#, fuzzy
 msgid "Options"
 msgstr "Opcions"
 
 #: src/wviacam.cpp:230
-#, fuzzy
 msgid "Help"
 msgstr "Ajuda"
 
 #: src/wviacam.cpp:236
-#, fuzzy
 msgid ""
 "Frame rate meter. For proper function\n"
 "should be greater than 25 fps. Reduce\n"
 "the exposure time of your camera when\n"
 "necessary."
 msgstr ""
-"Visor de velocitat de captura. Per un correcte\n"
-"funcionament ha de ser superior a 25. Reduïsca\n"
-"el temps d'exposició de la càmera si és necessari."
+"Visor de velocitat de captura. Per a un funcionament\n"
+"correcte ha de ser superior a 25. Reduïu\n"
+"el temps d'exposició de la càmera \n"
+"si és necessari."
 
 #: src/wviacam.cpp:333
-#, c-format, fuzzy
+#, c-format
 msgid " %li fps (good)"
 msgstr " %li fps (correcte)"
 
 #: src/wviacam.cpp:336
-#, c-format, fuzzy
+#, c-format
 msgid " %li fps (could be improved)"
 msgstr " %li fps (millorable)"
 
 #: src/wviacam.cpp:339
-#, c-format, fuzzy
+#, c-format
 msgid " %li fps (too low)"
 msgstr " %li fps (massa baix)"
 
 #: src/wviacam.cpp:384
-#, fuzzy
 msgid ""
 "This action will close the program.\n"
 "Are you sure?"
 msgstr ""
 "Aquesta acció tancarà el programa.\n"
-"Està segur?"
+"Segur que voleu?"
 
 #: src/langnames-utf8.h:32
-#, fuzzy
 msgid "System default"
-msgstr "Per defecte del sistema"
+msgstr "Valor per defecte del sistema"
 
 #: src/pointeraction.cpp:271
-#, fuzzy
 msgid ""
 "This action will disable eViacam click generation.\n"
 "Are you sure?"
 msgstr ""
 "Aquesta acció desactivarà la generació automàtica de clics.\n"
-"Està segur?"
+"Esteu segur?"
 
 #: src/pointeraction.cpp:275
-#, fuzzy
 msgid ""
 "This action will change the click generation method.\n"
 "Are you sure?"
 msgstr ""
 "Aquesta acció modificarà el mètode de generació automàtica de clics.\n"
-"Està segur?"
+"Esteu segur?"
 
 #: src/wgetkey.cpp:137
-#, fuzzy
 msgid "Press the desired key or 'Esc' to cancel this action."
-msgstr "Prema la tecla desitjada o 'Esc' per cancel·lar."
+msgstr "Premeu la tecla desitjada o Esc per a cancel·lar."
 
 #: src/wgetkey.h:53
-#, fuzzy
 msgid "Get key"
-msgstr "Establir tecla"
+msgstr "Estableix la tecla"
 
 #: src/wmotioncalibrationx.cpp:148
-#, fuzzy
 msgid "Move your head left and right."
-msgstr "Mogui el cap a dreta i a esquerra"
+msgstr "Moveu el cap a dreta i a esquerra."
 
 #: src/wmotioncalibrationx.cpp:151 src/wmotioncalibrationy.cpp:146
-#, fuzzy
 msgid "Your face is not detected. This may produce wrong calibration results."
-msgstr "No es detecta rostre. Això pot produir un calibratge incorrecte."
+msgstr "No us detecta la cara. Això pot produir un calibratge incorrecte."
 
 #: src/cmotioncalibration.cpp:185
-#, fuzzy
 msgid ""
 "No movement was detected.\n"
 "Do you want to repeat the calibration?"
 msgstr ""
 "No s'ha detectat moviment.\n"
-"Vol repetir el calibratge?"
+"Voleu repetir el calibratge?"
 
 #: src/wwizard.cpp:104
-#, fuzzy
 msgid "Enable Viacam configuration wizard"
 msgstr "Assistent de configuració de l'Enable Viacam"
 
 #: src/wwizard.cpp:262
-#, fuzzy
 msgid "Disable pointer control"
-msgstr "Desactivar control del punter"
+msgstr "Desactiva el control del punter"
 
 #: src/wwizard.cpp:266 src/wwizard.cpp:1639
-#, fuzzy
 msgid "Enable pointer control"
-msgstr "Activar control del punter"
+msgstr "Activa el control del punter"
 
 #: src/wwizard.cpp:375
-#, fuzzy
 msgid "Welcome to the eViacam configuration wizard"
-msgstr "Benvingut a l'assistent de configuració de l'eViacam"
+msgstr "Us donen la benvinguda a l'assistent de configuració de l'eViacam"
 
 #: src/wwizard.cpp:388
-#, fuzzy
 msgid "Click Next to continue."
-msgstr "Faça clic a Següent per continuar"
+msgstr "Feu clic en \"Següent\" per a continuar."
 
 #: src/wwizard.cpp:532 src/wwizard.cpp:1603
-#, fuzzy
 msgid "Pointer calibration"
 msgstr "Calibratge del punter"
 
 #: src/wwizard.cpp:542
-#, fuzzy
 msgid ""
 "The assisted calibration procedure will ask you to move your head in order to automatically configure the appropriate motion parameters.\n"
 "\n"
@@ -1083,427 +919,361 @@ msgid ""
 "\n"
 "NOTE: the calibration assistant will enable the pointer control so that you can test your configuration."
 msgstr ""
-"El procediment de calibratge assistit li demanarà que mogui el cap per tal de configurar automàticament els paràmetres del moviment.\n"
+"El procediment de calibratge assistit us demanarà que moveu el cap per tal "
+"de configurar automàticament els paràmetres del moviment.\n"
 "\n"
-"Després d'aquest procés, podrà ajustar manualment els paràmetres esmentats.\n"
+"Després d'aquest procés, podreu ajustar manualment els paràmetres esmentats."
 "\n"
-"NOTA: el procediment de calibratge assistit activarà el control del punter per a que puga provar la configuració."
+"\n"
+"NOTA: el procediment de calibratge assistit activarà el control del punter "
+"perquè pugeu provar la configuració."
 
 #: src/wwizard.cpp:550
-#, fuzzy
 msgid "Perform assisted calibration"
-msgstr "Realitzar el calibratge assistit"
+msgstr "Realitza el calibratge assistit"
 
 #: src/wwizard.cpp:553
-#, fuzzy
 msgid ""
 "If checked the next window will allow\n"
 "you to calibrate the speed of the pointer."
 msgstr ""
-"Si es troba activat, la pantalla següent li\n"
+"Si es troba activat, la pantalla següent us\n"
 "permetrà calibrar la velocitat del punter."
 
 #: src/wwizard.cpp:696
-#, fuzzy
 msgid "Pointer calibration "
-msgstr "Calibratge del moviment"
+msgstr "Calibratge del moviment "
 
 #: src/wwizard.cpp:873
-#, fuzzy
 msgid "Click mode"
 msgstr "Mode de clic"
 
 #: src/wwizard.cpp:883
-#, fuzzy
 msgid "Click here to test"
-msgstr "Faça clic ací per provar"
+msgstr "Feu clic ací per a provar"
 
 #: src/wwizard.cpp:889
-#, fuzzy
 msgid "Dwell Click (default)"
 msgstr "Clic per espera (per defecte)"
 
 #: src/wwizard.cpp:893
-#, fuzzy
 msgid ""
 "The click is generated automatically when you hover the mouse pointer "
 "momentarily. The Click the Window lets you choose between different actions."
 msgstr ""
-"El clic es genera automàticament aturant el punter uns instants. La Finestra"
-" del Clic li permet triar entre les diferents accions."
+"El clic es genera automàticament detenint el punter uns instants. La "
+"finestra del clic us permet triar entre les diferents accions."
 
 #: src/wwizard.cpp:905
-#, fuzzy
 msgid ""
 "The click is automatically generated by stopping the pointer for a moment "
 "and then moving the pointer to one of the 4 directions to choose the action."
 msgstr ""
-"El clic es genera automàticament aturant el punter uns instants i després "
-"movent en una de les 4 direccions per escollir l'acció desitjada."
+"El clic es genera automàticament deteint el punter uns instants i després "
+"movent en una de les 4 direccions per a escollir l'acció desitjada."
 
 #: src/wwizard.cpp:911
-#, fuzzy
 msgid "No click. Click function disabled."
-msgstr "No clic. La funció del clic es desactivarà."
+msgstr "Sense clic. La funció del clic es desactivarà."
 
 #: src/wwizard.cpp:917
-#, fuzzy
 msgid "Enable head tracking"
-msgstr "Activar seguiment del cap"
+msgstr "Activa el seguiment del cap"
 
 #: src/wwizard.cpp:1048 ../src/resources/clickWindowBitmap.xrc:73
 #: ../src/resources/clickWindowBitmapVertical.xrc:73
-#, fuzzy
 msgid "Drag"
-msgstr "Arrossegar"
+msgstr "Arrossega"
 
 #: src/wwizard.cpp:1066
-#, fuzzy
 msgid "Drop"
-msgstr "Soltar"
+msgstr "Solta"
 
 #: src/wwizard.cpp:1227
-#, fuzzy
 msgid "Wizard completed"
 msgstr "Assistent completat"
 
 #: src/wwizard.cpp:1237
-#, fuzzy
 msgid "Run this wizard at startup"
-msgstr "Executar aquest assistent al iniciar l'eViacam"
+msgstr "Executa aquest assistent en iniciar l'eViacam"
 
 #: src/wwizard.cpp:1240
-#, fuzzy
 msgid "If checked the wizard automatically appears at startup."
-msgstr "Si està seleccionat l'assistent s'executarà en iniciar el programa."
+msgstr "Si està seleccionat l'assistent, s'executarà en iniciar el programa."
 
 #: src/wwizard.cpp:1258
-#, fuzzy
 msgid "You may change the settings through Configuration -> Options"
-msgstr "Podeu canviar la configuració a través de Configuració -> Opcions"
+msgstr "Podeu canviar la configuració a través de Configuració > Opcions"
 
 #: src/wwizard.cpp:1426
-#, fuzzy
 msgid "Camera setup"
 msgstr "Configuració de la càmera"
 
 #: src/wwizard.cpp:1439
-#, fuzzy
 msgid "Detected camera:"
 msgstr "Càmera detectada:"
 
 #: src/wwizard.cpp:1442
-#, fuzzy
 msgid "camera_name"
-msgstr "camera_name"
+msgstr "Nom de la càmera"
 
 #: src/wwizard.cpp:1446
-#, fuzzy
 msgid "Framerate:"
 msgstr "Imatges per segon:"
 
 #: src/wwizard.cpp:1449
-#, fuzzy
 msgid "framerate"
-msgstr "framerate"
+msgstr "Imatges per segon"
 
 #: src/wwizard.cpp:1455
-#, fuzzy
 msgid ""
 "For best performance possible, the frame rate should be equal to or greater "
 "than 25 fps. eViacam tries to automatically configure your camera, but If "
 "this value is below this threshold you may need to manually adjust the "
 "camera settings."
 msgstr ""
-"Per obtindre el millor rendiment possible, la velocitat de captura hauria de"
-" ser igual o superior a 25 fps. eViacam intenta configurar la càmera, però "
-"si aquest valor està per sota d'aquest llindar pot ser necessari ajustar "
-"manualment la configuració de la càmera."
+"Per a obtindre el millor rendiment possible, la velocitat de captura hauria "
+"de ser igual o superior a 25 fps. eViacam intenta configurar la càmera; "
+"però, si aquest valor està per baix d'aquest llindar, pot ser necessari "
+"ajustar manualment la configuració de la càmera."
 
 #: src/wwizard.cpp:1461
-#, fuzzy
 msgid "Camera settings..."
 msgstr "Opcions de la càmera..."
 
 #: src/wwizard.cpp:1613
-#, fuzzy
 msgid ""
 "You can adjust motion speed manually and enable head tracking to test how it"
 " works."
 msgstr ""
-"Pot ajustar manualment la velocitat del moviment i activar el seguiment del "
-"cap per comprovar com funciona."
+"Podeu ajustar manualment la velocitat del moviment i activar el seguiment "
+"del cap per a comprovar com funciona."
 
 #: src/wwizard.cpp:1803
-#, fuzzy
 msgid "The frame rate is appropriate."
 msgstr "El nombre d'imatges per segon és correcte."
 
 #: src/wwizard.cpp:1901
-#, fuzzy
 msgid "Face detection setup"
 msgstr "Configuració de la detecció facial"
 
 #: src/wwizard.cpp:1911
-#, fuzzy
 msgid ""
 "eViacam will try to detect your face automatically. But, if necessary, you "
 "can disable this feature and manually adjust the tracking area (blue "
 "rectangle) around your face.\n"
 msgstr ""
-"eViacam intentarà detectar el rostre automàticament. Tot i que, si és "
-"necessari, pot desactivar aquesta funció i ajustar manualment l'àrea de "
-"seguiment (rectangle blau) fent que el seu rostre aparega a l'interior.\n"
+"eViacam intentarà detectar la cara automàticament. Tot i que, si és "
+"necessari, podeu desactivar aquesta funció i ajustar manualment l'àrea de "
+"seguiment (rectangle blau) fent que la vostra cara aparega a l'interior.\n"
 
 #: src/wwizard.cpp:1917
-#, fuzzy
 msgid "Locate face automatically (recommended)"
-msgstr "Localitzar rostre automàticament (recomanat)"
+msgstr "Localitza la cara automàticament (recomanat)"
 
 #: src/wwizard.cpp:1923
-#, fuzzy
 msgid "Disable eViacam if no face is found"
-msgstr "Desactivar l'eViacam si no es detecta el rostre"
+msgstr "Desactiva l'eViacam si no es detecta la cara"
 
 #: src/wconfirmcalibration.cpp:154
-#, fuzzy
 msgid "Move your head to see how it works"
-msgstr "Mogui el cap per comprovar com funciona"
+msgstr "Moveu el cap per comprovar com funciona"
 
 #: src/wconfirmcalibration.cpp:157
-#, fuzzy
 msgid "Hover one of the buttons to select your choice"
-msgstr "Atureu el punter sobre un dels botons per triar l'opció desitjada"
+msgstr "Deteniu el punter sobre un dels botons per a triar l'opció desitjada"
 
 #: src/wconfirmcalibration.cpp:162
-#, fuzzy
 msgid ""
 "- \"Ok\" saves this configuration.\n"
 "- \"Cancel\" retains the old configuration.\n"
 "- \"Repeat\" starts again the calibration process."
 msgstr ""
-"- \"Acceptar\" guarda aquesta configuració.\n"
-"- \"Cancel·lar\" reté la configuration antiga.\n"
-"- \"Repetir\" reinicia de nou el procés de calibratge."
+"- \"Accepta\" guarda aquesta configuració.\n"
+"- \"Cancel·la\" reté la configuration antiga.\n"
+"- \"Repeteix\" reinicia el procés de calibratge."
 
 #: src/wconfirmcalibration.cpp:168 src/wconfirmcalibration.cpp:286
 #: src/wconfirmcalibration.cpp:293 src/wconfirmcalibration.cpp:300
 #: wxutil/warnbaroverlap.cpp:136
-#, fuzzy
 msgid "Ok"
-msgstr "Acceptar"
+msgstr "Accepta"
 
 #: src/wconfirmcalibration.cpp:171 src/wconfirmcalibration.cpp:187
 #: src/wconfirmcalibration.cpp:287 src/wconfirmcalibration.cpp:294
 #: src/wconfirmcalibration.cpp:301
-#, fuzzy
 msgid "Cancel"
-msgstr "Cancel·lar"
+msgstr "Cancel·la"
 
 #: src/wconfirmcalibration.cpp:174 src/wconfirmcalibration.cpp:288
 #: src/wconfirmcalibration.cpp:295 src/wconfirmcalibration.cpp:302
-#, fuzzy
 msgid "Repeat"
-msgstr "Repetir"
+msgstr "Repeteix"
 
 #: src/wmotioncalibrationy.cpp:143
-#, fuzzy
 msgid "Move your head up and down."
-msgstr "Mogui el cap cap amunt i cap avall"
+msgstr "Moveu el cap amunt i cap avall."
 
 #: src/wconfirmcalibration.h:51
-#, fuzzy
 msgid "Confirm Calibration"
-msgstr "Confirmar calibratge"
+msgstr "Confirmació del calibratge"
 
 #: src/wmotioncalibrationx.h:50
-#, fuzzy
 msgid "Motion Calibration X"
-msgstr "Calibratge moviment eix X"
+msgstr "Calibratge del moviment en l'eix X"
 
 #: src/wmotioncalibrationy.h:50
-#, fuzzy
 msgid "Motion Calibration Y"
-msgstr "Calibratge moviment eix Y"
+msgstr "Calibratge del moviment en l'eix Y"
 
 #: src/wcameradialog.h:59
-#, fuzzy
 msgid "Camera settings"
 msgstr "Ajustos de la càmera"
 
 #: src/hotkeymanager.cpp:39
-#, fuzzy
 msgid "Enable eViacam"
-msgstr "Activar l'eViacam"
+msgstr "Activa l'eViacam"
 
 #: src/hotkeymanager.cpp:49
-#, fuzzy
 msgid "Center the pointer"
-msgstr "Centrar el punter"
+msgstr "Centra el punter"
 
 #: src/hotkeymanager.cpp:70
-#, fuzzy
 msgid "Increase the X axis speed"
-msgstr "Augmentar la velocitat de l'eix X"
+msgstr "Augmenta la velocitat de l'eix X"
 
 #: src/hotkeymanager.cpp:80
-#, fuzzy
 msgid "Increase the Y axis speed"
-msgstr "Augmentar la velocitat de l'eix Y"
+msgstr "Augmenta la velocitat de l'eix Y"
 
 #: src/hotkeymanager.cpp:91
-#, fuzzy
 msgid "Decrease the X axis speed"
-msgstr "Disminuir la velocitat de l'eix X"
+msgstr "Disminueix la velocitat de l'eix X"
 
 #: src/hotkeymanager.cpp:102
-#, fuzzy
 msgid "Decrease the Y axis speed"
-msgstr "Disminuir la velocitat de l'eix Y"
+msgstr "Disminueix la velocitat de l'eix Y"
 
 #: src/checkupdates.cpp:216
-#, fuzzy
 msgid "Error checking for updates. Try again later."
-msgstr "Error comprovant actualitzacions. Intente-ho més tard."
+msgstr ""
+"S'ha produït un error en comprovar si hi ha actualitzacions. Torneu-ho a "
+"provar més tard."
 
 #: src/checkupdates.cpp:249
-#, fuzzy
 msgid "Cannot resolve host name: "
-msgstr "No es pot resoldre nom de màquina: "
+msgstr "No es pot resoldre el nom de l'amfitrió: "
 
 #: src/checkupdates.cpp:254
-#, fuzzy
 msgid "Conection failed: "
-msgstr "Connexió fallida: "
+msgstr "La connexió ha fallat: "
 
 #: src/checkupdates.cpp:259
-#, fuzzy
 msgid "Sorry. Version file not found. Please report us."
-msgstr ""
-"Em sap greu. Fitxer de versió no trobat. Per favor, faça'ns saber aquest "
-"error."
+msgstr "No s'ha trobat el fitxer de versió. Feu-nos saber aquest error."
 
 #: src/checkupdates.cpp:263
-#, fuzzy
 msgid "Sorry. Something bad happened."
-msgstr "Em sap greu. S'ha produït un error."
+msgstr "S'ha produït un error."
 
 #: src/checkupdates_ui.cpp:153
-#, fuzzy
 msgid "Checking for updates. Please wait."
-msgstr "Comprovant actualitzacions. Esperi."
+msgstr "S'està comprovant si hi ha actualitzacions. Espereu."
 
 #: src/checkupdates_ui.cpp:161
-#, fuzzy
 msgid "Visit Enable Viacam website"
-msgstr "Visitar el lloc web de l'Enable Viacam"
+msgstr "Visita el lloc web de l'Enable Viacam"
 
 #: src/checkupdates_ui.cpp:168
-#, fuzzy
 msgid "&Close"
-msgstr "&Tancar"
+msgstr "&Tanca"
 
 #: src/checkupdates_manager.cpp:53
-#, fuzzy
 msgid "New version available: "
 msgstr "Nova versió disponible: "
 
 #: src/checkupdates_manager.cpp:55
-#, fuzzy
 msgid "Installed version: "
 msgstr "Versió instal·lada: "
 
 #: src/checkupdates_manager.cpp:60
-#, fuzzy
 msgid "No updates available"
 msgstr "No hi ha actualitzacions disponibles"
 
 #: src/checkupdates_manager.cpp:64
-#, fuzzy
 msgid "Error checking for updates"
-msgstr "Error comprovant actualitzacions"
+msgstr "S'ha produït un error en comprovar si hi ha actualitzacions"
 
 #: src/newtrackerinformationdlg.h:41
-#, fuzzy
 msgid "New Tracker Information"
-msgstr "Informació Sobre Nou Seguiment"
+msgstr "Informació sobre nou seguiment"
 
 #: src/newtrackerinformationdlg.cpp:132
-#, fuzzy
 msgid "Improved face tracker"
 msgstr "Seguiment facial millorat"
 
 #: src/newtrackerinformationdlg.cpp:136
-#, fuzzy
 msgid ""
 "This version of Enable Viacam includes an improved face tracking algorithm. "
 "We still provide the old algorithm, but it will most likely be removed in "
 "future versions."
 msgstr ""
 "Aquesta versió d'Enable Viacam inclou un algorisme millorat de seguiment "
-"facial. Es continua proporcionant l'antic algorisme, però probablement "
+"facial. Es continua proporcionant l'anterior algorisme, però probablement "
 "s'eliminarà en versions futures."
 
 #: src/newtrackerinformationdlg.cpp:140
-#, fuzzy
 msgid "Do you want to use the new face tracker?"
-msgstr "Vol fer servir el nou seguiment facial?"
+msgstr "Voleu fer servir el nou seguiment facial?"
 
 #: src/newtrackerinformationdlg.cpp:147
-#, fuzzy
 msgid "Yes and adjust some settings automatically (recommended)"
-msgstr "Sí i optimitzar automàticament alguns ajustos (recomanat)"
+msgstr "Sí, i optimitzar automàticament alguns ajustos (recomanat)"
 
 #: src/newtrackerinformationdlg.cpp:151
-#, fuzzy
 msgid "No, use the legacy tracker"
-msgstr "No, fer servir el seguiment facial antic"
+msgstr "No, fer servir el seguiment facial anterior"
 
 #: src/newtrackerinformationdlg.cpp:155
-#, fuzzy
 msgid ""
 "You could also change the tracker configuration under:\n"
 "Configuration -> Options... -> Advanced -> Face localization and tracking"
 msgstr ""
-"També pot modificar la configuració del seguiment facial sota:\n"
-"Configuració -> Opcions... -> Avançat -> Localització facial i seguiment"
+"També podeu modificar la configuració del seguiment facial en:\n"
+"Configuració > Opcions > Avançat > Localització facial i seguiment"
 
 #: src/newtrackerinformationdlg.cpp:161
-#, fuzzy
 msgid "Show this message on startup"
-msgstr "Mostrar aquest missatge a l'engegar"
+msgstr "Mostra aquest missatge en iniciar"
 
 #: wxcamwindow/capturethread.cpp:69
-#, fuzzy
 msgid "Camera not detected. Aborting"
-msgstr "Càmera no detectada. Avortant."
+msgstr "Càmera no detectada. s'està cancel·lant."
 
 #: wxutil/warnbaroverlap.h:43
-#, fuzzy
 msgid "Overlapping warning"
-msgstr "Advertiment de solapament"
+msgstr "Avís de solapament"
 
 #: wxutil/warnbaroverlap.cpp:127
-#, fuzzy
 msgid ""
 "The chosen Click window position is taken up by another bar.\n"
 "This can prevent it from working properly when auto-hide mode is enabled.\n"
 "It is recommended to move the Click window to a free position."
 msgstr ""
-"La posició escollida per la finestra del clic està ocupada per una altra barra.\n"
-"Això pot impedir un correcte funcionament de la finestra si el mode amagar automàticament està actiu.\n"
+"La posició escollida per la finestra del clic està ocupada per una altra "
+"barra.\n"
+"Això pot impedir un funcionament correcte de la finestra si el mode Amagar "
+"automàticament està actiu.\n"
 "Es recomana moure la finestra del clic a una posició lliure."
 
 #: wxutil/warnbaroverlap.cpp:132
-#, fuzzy
 msgid "Do not show this message again"
-msgstr "No tornar a mostrar aquest missatge"
+msgstr "No tornes a mostrar aquest missatge"
 
 #: ../src/resources/clickWindowBitmap.xrc:8
 #: ../src/resources/clickWindowBitmapVertical.xrc:8
 #: ../src/resources/clickWindowText.xrc:7
 #: ../src/resources/clickWindowTextVertical.xrc:7
-#, fuzzy
 msgid "eViacam"
 msgstr "eViacam"
 
@@ -1511,49 +1281,41 @@ msgstr "eViacam"
 #: ../src/resources/clickWindowBitmapVertical.xrc:29
 #: ../src/resources/clickWindowText.xrc:14
 #: ../src/resources/clickWindowTextVertical.xrc:14
-#, fuzzy
 msgid "No click"
-msgstr "No clic"
+msgstr "Sense clic"
 
 #: ../src/resources/clickWindowBitmap.xrc:53
 #: ../src/resources/clickWindowBitmapVertical.xrc:53
-#, fuzzy
 msgid "Middle"
 msgstr "Central"
 
 #: ../src/resources/clickWindowBitmap.xrc:83
 #: ../src/resources/clickWindowBitmapVertical.xrc:83
-#, fuzzy
 msgid "Double Click"
 msgstr "Doble clic"
 
 #: ../src/resources/clickWindowText.xrc:30
 #: ../src/resources/clickWindowTextVertical.xrc:30
-#, fuzzy
 msgid "#Left#"
 msgstr "#Esquerra#"
 
 #: ../src/resources/clickWindowText.xrc:38
 #: ../src/resources/clickWindowTextVertical.xrc:38
-#, fuzzy
 msgid "#Middle#"
 msgstr "#Central#"
 
 #: ../src/resources/clickWindowText.xrc:46
 #: ../src/resources/clickWindowTextVertical.xrc:46
-#, fuzzy
 msgid "#Right#"
 msgstr "#Dreta#"
 
 #: ../src/resources/clickWindowText.xrc:54
 #: ../src/resources/clickWindowTextVertical.xrc:54
-#, fuzzy
 msgid "#Drag#"
-msgstr "#Arrossegar#"
+msgstr "#Arrossegament#"
 
 #: ../src/resources/clickWindowText.xrc:62
 #: ../src/resources/clickWindowTextVertical.xrc:62
-#, fuzzy
 msgid "#Double Click#"
 msgstr "#Doble clic#"
 
