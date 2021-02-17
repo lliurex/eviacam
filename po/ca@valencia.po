@@ -9,57 +9,46 @@ msgstr ""
 "Project-Id-Version: eviacam 1.7.2\n"
 "Report-Msgid-Bugs-To: cesar@crea-si.com\n"
 "POT-Creation-Date: 2016-03-26 13:44+0100\n"
-"PO-Revision-Date: 2015-01-15 11:52+0200\n"
-"Last-Translator: Cesar Mauri <cesar@crea-si.com>\n"
-"Language-Team: Català\n"
-"Language: ca-valencia\n"
+"PO-Revision-Date: 2021-02-17 12:02+0000\n"
+"Last-Translator: Angels <gimenez_angcam@gva.es>\n"
+"Language-Team: Valencian <http://weblate.lliurex.net/projects/eviacam/"
+"eviacam/ca@valencia/>\n"
+"Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.1\n"
 
 #: src/wconfiguration.h:130
-#, fuzzy
 msgid "Configuration"
 msgstr "Configuració"
 
 #: src/wconfiguration.cpp:348
-#, fuzzy
 msgid "Motion calibration"
 msgstr "Calibratge del moviment"
 
 #: src/wconfiguration.cpp:353 src/wwizard.cpp:1620
-#, fuzzy
 msgid "X axis speed"
 msgstr "Velocitat eix X"
 
 #: src/wconfiguration.cpp:358
-#, fuzzy
 msgid "Sets response sensitivity for the X axis."
-msgstr ""
-"Configura la sensibilitat del\n"
-"moviment per l'eix X."
+msgstr "Configura la sensibilitat del moviment per l'eix X."
 
 #: src/wconfiguration.cpp:361 src/wwizard.cpp:1629
-#, fuzzy
 msgid "Y axis speed"
 msgstr "Velocitat eix Y"
 
 #: src/wconfiguration.cpp:366
-#, fuzzy
 msgid "Sets response sensitivity for the Y axis."
-msgstr ""
-"Configura la sensibilitat del\n"
-"moviment per l'eix Y."
+msgstr "Configura la sensibilitat del moviment per l'eix Y."
 
 #: src/wconfiguration.cpp:369
-#, fuzzy
 msgid "Acceleration"
 msgstr "Acceleració"
 
 #: src/wconfiguration.cpp:374
-#, fuzzy
 msgid ""
 "Sets pointer's acceleration.\n"
 "0 means no acceleration and\n"
@@ -70,7 +59,6 @@ msgstr ""
 "5 configura l'acceleració màxima."
 
 #: src/wconfiguration.cpp:377
-#, fuzzy
 msgid "Smoothness"
 msgstr "Suavitzat"
 
