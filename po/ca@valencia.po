@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: eviacam 1.7.2\n"
 "Report-Msgid-Bugs-To: cesar@crea-si.com\n"
 "POT-Creation-Date: 2016-03-26 13:44+0100\n"
-"PO-Revision-Date: 2021-02-19 11:30+0000\n"
+"PO-Revision-Date: 2021-02-20 14:40+0000\n"
 "Last-Translator: Angels <gimenez_angcam@gva.es>\n"
 "Language-Team: Valencian <http://weblate.lliurex.net/projects/eviacam/"
 "eviacam/ca@valencia/>\n"
@@ -221,7 +221,7 @@ msgstr "So amb el clic"
 
 #: src/wconfiguration.cpp:531
 msgid "Play sound when click generated."
-msgstr "Reprodueix un so al generar un clic."
+msgstr "Reprodueix un so en generar un clic."
 
 #: src/wconfiguration.cpp:535
 msgid "Allow visual alerts"
@@ -746,7 +746,7 @@ msgstr "Llicència"
 #: src/wabout.cpp:206
 msgid "Released under the GNU/GPL v3 license. See COPYING file for details."
 msgstr ""
-"Alliberat sota llicencia GNU/GPL. Vegeu el fitxer COPYING per a més detalls."
+"Alliberat sota llicència GNU/GPL. Vegeu el fitxer COPYING per a més detalls."
 
 #: src/wviacam.cpp:189
 msgid "E&nable / Disable"
@@ -926,7 +926,7 @@ msgstr ""
 "\n"
 "\n"
 "NOTA: el procediment de calibratge assistit activarà el control del punter "
-"perquè pugeu provar la configuració."
+"perquè pugueu provar la configuració."
 
 #: src/wwizard.cpp:550
 msgid "Perform assisted calibration"
@@ -1090,7 +1090,7 @@ msgid ""
 "- \"Repeat\" starts again the calibration process."
 msgstr ""
 "- \"Accepta\" guarda aquesta configuració.\n"
-"- \"Cancel·la\" reté la configuration antiga.\n"
+"- \"Cancel·la\" reté la configuració antiga.\n"
 "- \"Repeteix\" reinicia el procés de calibratge."
 
 #: src/wconfirmcalibration.cpp:168 src/wconfirmcalibration.cpp:286
@@ -1248,7 +1248,7 @@ msgstr "Mostra aquest missatge en iniciar"
 
 #: wxcamwindow/capturethread.cpp:69
 msgid "Camera not detected. Aborting"
-msgstr "Càmera no detectada. s'està cancel·lant."
+msgstr "No s'ha detectat cap càmera. S'està cancel·lant."
 
 #: wxutil/warnbaroverlap.h:43
 msgid "Overlapping warning"
