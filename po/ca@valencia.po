@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: eviacam 1.7.2\n"
 "Report-Msgid-Bugs-To: cesar@crea-si.com\n"
 "POT-Creation-Date: 2016-03-26 13:44+0100\n"
-"PO-Revision-Date: 2021-02-20 14:40+0000\n"
+"PO-Revision-Date: 2021-02-22 07:57+0000\n"
 "Last-Translator: Angels <gimenez_angcam@gva.es>\n"
 "Language-Team: Valencian <http://weblate.lliurex.net/projects/eviacam/"
 "eviacam/ca@valencia/>\n"
@@ -34,7 +34,7 @@ msgstr "Velocitat de l'eix X"
 
 #: src/wconfiguration.cpp:358
 msgid "Sets response sensitivity for the X axis."
-msgstr "Estableix la sensibilitat del moviment per l'eix X."
+msgstr "Estableix la sensibilitat del moviment per l'eix X"
 
 #: src/wconfiguration.cpp:361 src/wwizard.cpp:1629
 msgid "Y axis speed"
@@ -42,7 +42,7 @@ msgstr "Velocitat de l'eix Y"
 
 #: src/wconfiguration.cpp:366
 msgid "Sets response sensitivity for the Y axis."
-msgstr "Estableix la sensibilitat del moviment per l'eix Y."
+msgstr "Estableix la sensibilitat del moviment per l'eix Y"
 
 #: src/wconfiguration.cpp:369
 msgid "Acceleration"
@@ -54,9 +54,9 @@ msgid ""
 "0 means no acceleration and\n"
 "5 maximum acceleration."
 msgstr ""
-"Estableix l'acceleració del punter.\n"
+"Estableix l'acceleració del punter\n"
 "0 desactiva l'acceleració i\n"
-"5 configura l'acceleració màxima."
+"5 configura l'acceleració màxima"
 
 #: src/wconfiguration.cpp:377
 msgid "Smoothness"
@@ -70,7 +70,7 @@ msgid ""
 msgstr ""
 "Filtre per a reduir tremolors\n"
 "0 desactiva el filtre i\n"
-"8 configura el filtratge màxim."
+"8 configura el filtratge màxim"
 
 #: src/wconfiguration.cpp:385
 msgid "Motion threshold"
@@ -82,7 +82,7 @@ msgid ""
 "to start moving pointer."
 msgstr ""
 "Desplaçament mínim (en píxels) \n"
-"per a començar a moure el punter."
+"per a començar a moure el punter"
 
 #: src/wconfiguration.cpp:402
 msgid "Assisted calibration"
@@ -106,7 +106,7 @@ msgid ""
 "to the selected area."
 msgstr ""
 "Limita el punter del ratolí\n"
-"a l'àrea seleccionada."
+"a l'àrea seleccionada"
 
 #: src/wconfiguration.cpp:426
 msgid "Top"
@@ -187,7 +187,7 @@ msgid ""
 "before sending a click."
 msgstr ""
 "Temps d'espera (dècimes de segon)\n"
-"abans de generar un clic."
+"abans de generar un clic"
 
 #: src/wconfiguration.cpp:512
 msgid "Dwell area"
@@ -201,7 +201,7 @@ msgid ""
 msgstr ""
 "Desplaçament màxim permés\n"
 "abans de reiniciar el compte\n"
-"arrere del temps d'espera."
+"arrere del temps d'espera"
 
 #: src/wconfiguration.cpp:522
 msgid "Allow consecutive clicks"
@@ -213,7 +213,7 @@ msgid ""
 "when the pointer is stopped."
 msgstr ""
 "Permet enviar múltiples clics\n"
-"quan el punter està parat."
+"quan el punter està parat"
 
 #: src/wconfiguration.cpp:528
 msgid "Beep on click"
@@ -221,7 +221,7 @@ msgstr "So amb el clic"
 
 #: src/wconfiguration.cpp:531
 msgid "Play sound when click generated."
-msgstr "Reprodueix un so en generar un clic."
+msgstr "Reprodueix un so en generar un clic"
 
 #: src/wconfiguration.cpp:535
 msgid "Allow visual alerts"
@@ -403,7 +403,7 @@ msgstr "Localització i seguiment facial"
 
 #: src/wconfiguration.cpp:722
 msgid "Use legacy face tracking algorithm"
-msgstr "Utilitza l'algorisme de seguiment facial anterior."
+msgstr "Utilitza l'algorisme de seguiment facial anterior"
 
 #: src/wconfiguration.cpp:725
 msgid ""
@@ -411,7 +411,7 @@ msgid ""
 "(not recommended)."
 msgstr ""
 "Utilitza el mètode anterior de seguiment facial\n"
-"(no recomanat)."
+"(no recomanat)"
 
 #: src/wconfiguration.cpp:730
 msgid "Locate face automatically"
@@ -449,11 +449,11 @@ msgstr "Molt alt"
 
 #: src/wconfiguration.cpp:750
 msgid "Stop pointer when face not detected"
-msgstr "Deté el punter quan no es detecta la cara"
+msgstr "Para el punter quan no es detecta la cara"
 
 #: src/wconfiguration.cpp:753
 msgid "eViacam is only enabled when face is detected."
-msgstr "eViacam només s'activa quan es detecta la cara."
+msgstr "L'eViacam només s'activa quan es detecta la cara."
 
 #: src/wconfiguration.cpp:759
 msgid "After"
@@ -597,7 +597,7 @@ msgstr "El nom de perfil no és vàlid."
 
 #: src/wconfiguration.cpp:1609 src/wconfiguration.cpp:1612
 msgid "Choose on-screen keyboard command"
-msgstr "Trieu l'ordre del teclat en pantalla"
+msgstr "Trieu l'ordre del teclat en pantalla."
 
 #: src/wconfiguration.cpp:1610
 msgid "Executable files|*.exe"
@@ -657,7 +657,7 @@ msgid ""
 "This action will disable eViacam.\n"
 "Are you sure?"
 msgstr ""
-"Aquesta acció desactivarà eViacam.\n"
+"Aquesta acció desactivarà l'eViacam.\n"
 "Esteu segur?"
 
 #: src/viacamcontroller.cpp:465
@@ -671,7 +671,7 @@ msgstr ""
 #: src/viacamcontroller.cpp:465 src/viacamcontroller.cpp:479
 #: wxcamwindow/capturethread.cpp:69
 msgid "eViacam error"
-msgstr "S'ha produït un error d'eViacam"
+msgstr "S'ha produït un error d'eViacam."
 
 #: src/viacamcontroller.cpp:475
 #, c-format
@@ -841,7 +841,7 @@ msgid ""
 "Are you sure?"
 msgstr ""
 "Aquesta acció tancarà el programa.\n"
-"Segur que voleu?"
+"Segur que ho voleu?"
 
 #: src/langnames-utf8.h:32
 msgid "System default"
@@ -853,7 +853,7 @@ msgid ""
 "Are you sure?"
 msgstr ""
 "Aquesta acció desactivarà la generació automàtica de clics.\n"
-"Esteu segur?"
+"Segur que ho voleu?"
 
 #: src/pointeraction.cpp:275
 msgid ""
@@ -861,7 +861,7 @@ msgid ""
 "Are you sure?"
 msgstr ""
 "Aquesta acció modificarà el mètode de generació automàtica de clics.\n"
-"Esteu segur?"
+"Segur que ho voleu?"
 
 #: src/wgetkey.cpp:137
 msgid "Press the desired key or 'Esc' to cancel this action."
@@ -969,7 +969,7 @@ msgid ""
 "The click is automatically generated by stopping the pointer for a moment "
 "and then moving the pointer to one of the 4 directions to choose the action."
 msgstr ""
-"El clic es genera automàticament deteint el punter uns instants i després "
+"El clic es genera automàticament detenint el punter uns instants i després "
 "movent en una de les 4 direccions per a escollir l'acció desitjada."
 
 #: src/wwizard.cpp:911
@@ -1033,7 +1033,7 @@ msgid ""
 "camera settings."
 msgstr ""
 "Per a obtindre el millor rendiment possible, la velocitat de captura hauria "
-"de ser igual o superior a 25 fps. eViacam intenta configurar la càmera; "
+"de ser igual o superior a 25 fps. L'eViacam intenta configurar la càmera; "
 "però, si aquest valor està per baix d'aquest llindar, pot ser necessari "
 "ajustar manualment la configuració de la càmera."
 
@@ -1063,7 +1063,7 @@ msgid ""
 "can disable this feature and manually adjust the tracking area (blue "
 "rectangle) around your face.\n"
 msgstr ""
-"eViacam intentarà detectar la cara automàticament. Tot i que, si és "
+"L'eViacam intentarà detectar la cara automàticament. Tot i que, si és "
 "necessari, podeu desactivar aquesta funció i ajustar manualment l'àrea de "
 "seguiment (rectangle blau) fent que la vostra cara aparega a l'interior.\n"
 
@@ -1077,7 +1077,7 @@ msgstr "Desactiva l'eViacam si no es detecta la cara"
 
 #: src/wconfirmcalibration.cpp:154
 msgid "Move your head to see how it works"
-msgstr "Moveu el cap per comprovar com funciona"
+msgstr "Moveu el cap per a comprovar com funciona"
 
 #: src/wconfirmcalibration.cpp:157
 msgid "Hover one of the buttons to select your choice"
@@ -1170,7 +1170,7 @@ msgstr "La connexió ha fallat: "
 
 #: src/checkupdates.cpp:259
 msgid "Sorry. Version file not found. Please report us."
-msgstr "No s'ha trobat el fitxer de versió. Feu-nos saber aquest error."
+msgstr "No s'ha trobat el fitxer de versió. Comuniqueu-nos aquest error."
 
 #: src/checkupdates.cpp:263
 msgid "Sorry. Something bad happened."
@@ -1198,11 +1198,11 @@ msgstr "Versió instal·lada: "
 
 #: src/checkupdates_manager.cpp:60
 msgid "No updates available"
-msgstr "No hi ha actualitzacions disponibles"
+msgstr "No hi ha actualitzacions disponibles."
 
 #: src/checkupdates_manager.cpp:64
 msgid "Error checking for updates"
-msgstr "S'ha produït un error en comprovar si hi ha actualitzacions"
+msgstr "S'ha produït un error en comprovar si hi ha actualitzacions."
 
 #: src/newtrackerinformationdlg.h:41
 msgid "New Tracker Information"
@@ -1228,11 +1228,11 @@ msgstr "Voleu fer servir el nou seguiment facial?"
 
 #: src/newtrackerinformationdlg.cpp:147
 msgid "Yes and adjust some settings automatically (recommended)"
-msgstr "Sí, i optimitzar automàticament alguns ajustos (recomanat)"
+msgstr "Sí, i optimitzar automàticament alguns ajustos (recomanat)."
 
 #: src/newtrackerinformationdlg.cpp:151
 msgid "No, use the legacy tracker"
-msgstr "No, fer servir el seguiment facial anterior"
+msgstr "No, fes servir el seguiment facial anterior."
 
 #: src/newtrackerinformationdlg.cpp:155
 msgid ""
@@ -1262,7 +1262,7 @@ msgid ""
 msgstr ""
 "La posició escollida per la finestra del clic està ocupada per una altra "
 "barra.\n"
-"Això pot impedir un funcionament correcte de la finestra si el mode Amagar "
+"Això pot impedir un funcionament correcte de la finestra si el mode Amaga "
 "automàticament està actiu.\n"
 "Es recomana moure la finestra del clic a una posició lliure."
 
